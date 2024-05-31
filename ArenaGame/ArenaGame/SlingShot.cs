@@ -10,7 +10,7 @@ namespace ArenaGame
     {
         private const int ArmourBreak = 20;
 
-        public SlingShot() : base("Scythe", 25, ArmourBreak) { }
+        public SlingShot() : base("Sling Shot", 25, ArmourBreak) { }
 
         public override int SpecialAbilityUse(int defaultDamage)
         {

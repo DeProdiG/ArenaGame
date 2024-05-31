@@ -46,5 +46,10 @@
             Health = Health + value;
             if (Health > StartingHealth) Health = StartingHealth;
         }
+
+        public void SetWeapon(Weapons weapon) 
+        {  
+            Weapons = weapon; 
+        }    
     }
 }

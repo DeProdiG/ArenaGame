@@ -11,7 +11,7 @@ namespace ArenaGame
         private const int HealthLimit = 20;
         private const int InstantDeath = 10;
 
-        public FireScythe(): base("Scythe", 25, InstantDeath) { }
+        public FireScythe(): base("Fire Scythe", 25, InstantDeath) { }
 
         public override int SpecialAbilityUse(int defaultDamage)
         {
